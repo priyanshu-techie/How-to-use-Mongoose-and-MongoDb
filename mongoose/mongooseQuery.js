@@ -20,6 +20,11 @@ async function run(){
     //     name:'abhi'  // first thing that matches will be deleted
     // });
 
+// for showing only certain feilds of the document and not the whole document
+    // let user =await userModel.find({}).select({name:1,age:1,_id:0})
+                                                //👆👆 this will show only name and age in the db and not show the id and everything else (you have to specifically say that dont show id)
+
+
 
 //using WHERE 👇👇 for adding extra conditions for the queue
 
