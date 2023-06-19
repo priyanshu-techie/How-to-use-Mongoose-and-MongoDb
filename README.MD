@@ -7,6 +7,6 @@ In the mongodriver.js i have used the mongoDb driver code to connect to the data
 But in the mongoose folder, I have used mongoose framework for connecting with my Db. It makes our job a lot easier by handling many things on its own.
 
 ### It helps to make the schema of the document to be inserted.
-### Also Mongoose model provides an interface to the database for creating, querying, updating, deleting records, etc.
+### Also Mongoose model is a class to generate mongoDb documents, which are basically like JS objects, it provides various methods for creating, querying, updating, deleting records, etc.
 ### In simpler terms, a schema is a blueprint for defining the structure of a document while a model is a class with which we construct documents.
 
