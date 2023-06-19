@@ -1,0 +1,6 @@
+You can also update some data in a collection by :
+
+    const kit1= await Kitten.findOne({name:"priyanshi"});
+            kit1.name='prajapati'
+            kit1.save();
+

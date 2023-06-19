@@ -9,7 +9,7 @@ let addressSchema=new mongoose.Schema({
 let userSchema=new mongoose.Schema({
     name:{
         type:String,// if i give a different data then it will give error
-        requrired:true
+        required:true
     },
     age:{
         type:Number,
