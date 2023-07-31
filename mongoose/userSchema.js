@@ -23,7 +23,7 @@ let userSchema=new mongoose.Schema({
     phoneNumber:Number,
     dateCreated:{
         type:Date,
-        default:()=>{Date.now()}, // if i give Date.now  as default, first time the code runs will be saved all the time, instead run a function that saves the current time .
+        default:()=>{ return Date.now()}, // if i give Date.now  as default, first time the code runs will be saved all the time, instead run a function that saves the current time .
         immutable:true
     },
     bestFriend:mongoose.Schema.Types.ObjectId,
